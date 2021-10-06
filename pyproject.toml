@@ -1,14 +1,15 @@
 [tool.poetry]
 name = "asteroids"
 version = "0.1.0"
-description = ""
+description = "Interview Mashey"
 authors = ["MarvinMartin24 <mmartin.mmarvin@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-requests = { version = "^2.26.0", extras = [ "security" ] }
+requests = {version = "^2.26.0", extras = [ "security" ]}
 pytest = '^6.2.5'
 tqdm = '^4.62.3'
+click = '^8.0.1'
 
 [tool.poetry.dev-dependencies]
 
